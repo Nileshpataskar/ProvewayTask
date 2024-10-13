@@ -69,6 +69,7 @@ input[type="radio"]:checked + .radioLabel .collapsed {
 
 input[type="radio"]:checked + .radioLabel .expanded {
   display: block;
+  position: relative;
   /* padding-right: 20px; */
 }
 
@@ -145,7 +146,7 @@ button {
   padding: 4px 8px;
   border-radius: 4px;
   position: absolute;
-  top: -50px;
+  top: -40px;
   right: -10px;
   z-index: 10;
   font-weight: bold;
